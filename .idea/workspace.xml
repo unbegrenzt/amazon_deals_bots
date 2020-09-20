@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57d5ff1e-7e12-4f29-86a0-84578981bd5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/amazon_deals_bots.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/DatabaseConnection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/telegram_users_service.js" afterDir="false" />
-    </list>
+    <list default="true" id="57d5ff1e-7e12-4f29-86a0-84578981bd5b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +38,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.62" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
@@ -61,6 +48,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jorge\WebstormProjects" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jorge\WebstormProjects\amazon_deals_bots\src\db" />
       <recent name="C:\Users\jorge\WebstormProjects\amazon_deals_bots\src\services" />
@@ -112,7 +102,7 @@
       <workItem from="1600460589762" duration="11636000" />
       <workItem from="1600533800903" duration="3602000" />
       <workItem from="1600563295351" duration="13391000" />
-      <workItem from="1600616214025" duration="13967000" />
+      <workItem from="1600616214025" duration="14290000" />
     </task>
     <servers />
   </component>
