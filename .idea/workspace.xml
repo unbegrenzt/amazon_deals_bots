@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="57d5ff1e-7e12-4f29-86a0-84578981bd5b" name="Default Changelist" comment="" />
+    <list default="true" id="57d5ff1e-7e12-4f29-86a0-84578981bd5b" name="Default Changelist" comment="fisrt commit from web storm" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -102,12 +125,35 @@
       <workItem from="1600460589762" duration="11636000" />
       <workItem from="1600533800903" duration="3602000" />
       <workItem from="1600563295351" duration="13391000" />
-      <workItem from="1600616214025" duration="14290000" />
+      <workItem from="1600616214025" duration="14755000" />
     </task>
+    <task id="LOCAL-00001" summary="fisrt commit from web storm">
+      <created>1600633295597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600633295597</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fisrt commit from web storm" />
+    <option name="LAST_COMMIT_MESSAGE" value="fisrt commit from web storm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="87" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600575063228">
@@ -206,10 +252,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="141" y="137" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1600631839907" />
-    <state x="232" y="225" key="Vcs.Push.Dialog.v2" timestamp="1600632047268">
+    <state x="232" y="225" key="Vcs.Push.Dialog.v2" timestamp="1600633609764">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="225" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1600632047268" />
+    <state x="232" y="225" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1600633609764" />
     <state x="296" y="226" key="run.anything.popup" timestamp="1600537361838">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
