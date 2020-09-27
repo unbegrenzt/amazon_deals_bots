@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57d5ff1e-7e12-4f29-86a0-84578981bd5b" name="Default Changelist" comment="fisrt commit from web storm">
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
@@ -88,7 +87,7 @@
       <recent name="C:\Users\jorge\WebstormProjects\amazon_deals_bots" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager">
     <configuration default="true" type="NodeJSConfigurationType" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -100,73 +99,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="install" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="install" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="js.build_tools.npm" temporary="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="main" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Node.js.app.js" />
-      <item itemvalue="npm.main" />
-      <item itemvalue="npm.start" />
-      <item itemvalue="npm.test" />
-      <item itemvalue="npm.build" />
-      <item itemvalue="npm.install" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.install" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.test" />
-        <item itemvalue="npm.main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -186,7 +118,7 @@
       <workItem from="1600875606282" duration="13245000" />
       <workItem from="1600992076350" duration="2939000" />
       <workItem from="1601077503598" duration="592000" />
-      <workItem from="1601227949917" duration="6461000" />
+      <workItem from="1601227949917" duration="7271000" />
     </task>
     <task id="LOCAL-00001" summary="fisrt commit from web storm">
       <created>1600633295597</created>
@@ -218,10 +150,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="fisrt commit from web storm" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="109" y="98" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601229397098">
+    <state x="109" y="98" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601235890710">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="109" y="98" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1601229397098" />
+    <state x="109" y="98" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1601235890710" />
     <state x="405" y="294" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601234992973">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -250,22 +182,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="417" y="190" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1600631460110" />
-    <state width="1259" height="297" key="GridCell.Tab.0.bottom" timestamp="1601235305443">
+    <state width="1259" height="297" key="GridCell.Tab.0.bottom" timestamp="1601236527110">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1601235305443" />
-    <state width="1259" height="297" key="GridCell.Tab.0.center" timestamp="1601235305442">
+    <state width="1259" height="297" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1601236527110" />
+    <state width="1259" height="297" key="GridCell.Tab.0.center" timestamp="1601236527110">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1601235305442" />
-    <state width="1259" height="297" key="GridCell.Tab.0.left" timestamp="1601235305442">
+    <state width="1259" height="297" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1601236527110" />
+    <state width="1259" height="297" key="GridCell.Tab.0.left" timestamp="1601236527110">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1601235305442" />
-    <state width="1259" height="297" key="GridCell.Tab.0.right" timestamp="1601235305443">
+    <state width="1259" height="297" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1601236527110" />
+    <state width="1259" height="297" key="GridCell.Tab.0.right" timestamp="1601236527110">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1601235305443" />
+    <state width="1259" height="297" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1601236527110" />
     <state width="1259" height="325" key="GridCell.Tab.1.bottom" timestamp="1600907847010">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
