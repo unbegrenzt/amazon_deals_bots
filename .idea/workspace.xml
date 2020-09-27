@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57d5ff1e-7e12-4f29-86a0-84578981bd5b" name="Default Changelist" comment="fisrt commit from web storm">
-      <change afterPath="$PROJECT_DIR$/src/loaders/bot_deals_telegram_loader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/DatabaseConnection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/DatabaseConnection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/user_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/user_data_model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/telegram_users_service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/telegram_users_service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,6 +60,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
@@ -127,6 +125,7 @@
       <workItem from="1600875606282" duration="13245000" />
       <workItem from="1600992076350" duration="2939000" />
       <workItem from="1601077503598" duration="592000" />
+      <workItem from="1601227949917" duration="7271000" />
     </task>
     <task id="LOCAL-00001" summary="fisrt commit from web storm">
       <created>1600633295597</created>
@@ -158,10 +157,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="fisrt commit from web storm" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="138" y="112" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601239496034">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="138" y="112" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1601239496034" />
+=======
+    <state x="109" y="98" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601235890710">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="109" y="98" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1601235890710" />
+    <state x="405" y="294" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601234992973">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="405" y="294" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1601234992973" />
+>>>>>>> prod
     <state x="420" y="197" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600571503780">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -201,7 +211,6 @@
     <state width="1259" height="297" key="GridCell.Tab.0.right" timestamp="1601239398165">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1601239398165" />
     <state width="1259" height="325" key="GridCell.Tab.1.bottom" timestamp="1600907847010">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -258,10 +267,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="232" y="225" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1600633609764" />
-    <state x="296" y="226" key="run.anything.popup" timestamp="1600800619233">
+    <state x="296" y="226" key="run.anything.popup" timestamp="1601235267024">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="296" y="226" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1600800619233" />
+    <state x="296" y="226" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1601235267024" />
     <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1600808599193">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
