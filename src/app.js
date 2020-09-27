@@ -6,7 +6,7 @@ const userData = require('./services/user_data_model');
 telegramBot.initializeTelegramBot();
 
 let job = new CronJob.CronJob(
-    '0 */30 9-17 * * *',
+    '0 */90 9-17 * * *',
     function () {
         console.log('disparado!');
         userData.getAllUsers().then((result) => {
