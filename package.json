@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "amazon deals data miner backend for telegram and facebook bot",
   "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "keywords": [],
   "author": "Jorge Luis Morales Centeno",
   "license": "ISC",
