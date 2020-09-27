@@ -3,6 +3,8 @@ const telegramBot = require('./loaders/bot_deals_telegram_loader')
 const CronJob = require('cron');
 const userData = require('./services/user_data_model');
 
+console.info('Entorno de desarrollo actual:' + process.env.NODE_ENV)
+
 telegramBot.initializeTelegramBot();
 
 let job = new CronJob.CronJob(

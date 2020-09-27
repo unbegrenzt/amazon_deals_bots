@@ -7,11 +7,11 @@ const queryStatementFunction = async function getPromiseUsers(
     } = {}) {
 
     const client = new Client({
-        user: 'gihzvxow',
-        host: 'dumbo.db.elephantsql.com',
-        database: 'gihzvxow',
-        password: 'rswFyoFV_dBKw0pGB_vpUfjioZKm1o_D',
-        port: 5432,
+        user: process.env.PGUSER,
+        host: process.env.PGHOST,
+        database: process.env.PGDATABASE,
+        password: process.env.PGPASSWORD,
+        port: process.env.PGPORT,
     });
     await client.connect();
     try {
