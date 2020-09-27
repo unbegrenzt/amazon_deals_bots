@@ -1,6 +1,14 @@
-const userData = require('../db/user_data');
+const userData = require('./user_data_model');
+const Extra = require('telegraf/extra');
+const Markup = require('telegraf/markup');
 
-const telegramData = {};
+const telegramService = {};
+
+const keyboard = function (deal_link) {
+    return Markup.inlineKeyboard([
+        Markup.urlButton('Lo quiero! ❤', `${deal_link}`)
+    ]);
+}
 
 const DealNotificationTemplate = async function (
     {
@@ -16,15 +24,14 @@ const DealNotificationTemplate = async function (
     try {
         await bot.telegram.sendMessage(
             user_id,
+            '[​​​​​​​​​​​](' + deal_photo_url + ')' +
             title + '\n' +
             product_description + '\n' +
             'Antes: ' + expensive_cost + '€ 😕\n' +
-            'Ahora: ' + cheapest_cost + '€ 🤩'
-        );
-        await bot.telegram.sendPhoto(
-            user_id,
-            `${deal_photo_url}`,
-            {caption: `${deal_link}`}
+            'Ahora: ' + cheapest_cost + '€ 🤩\n' +
+            'Ahorras: 7,96 € (21%)',
+            Extra.markup(keyboard(deal_link))
+                .markdown(true)
         );
         console.info(
             'notificación enviada correctamente a usuario con id: ' + user_id
@@ -37,21 +44,21 @@ const DealNotificationTemplate = async function (
     }
 }
 
-telegramData.sendDealNotificationToUser = DealNotificationTemplate;
+telegramService.sendDealNotificationToUser = DealNotificationTemplate;
 
 const SendBotDealNotification = async function (bot) {
     try {
-        let usersList = await userData.getAllUsers;
+        let usersList = await userData.getAllUsers();
 
         for (const userRow of usersList.result.rows) {
-            await telegramData.sendDealNotificationToUser({
+            await telegramService.sendDealNotificationToUser({
                 bot,
                 user_id: userRow.user_id,
-                product_description: 'Soporte de teléfono',
-                expensive_cost: 9.99,
-                cheapest_cost: 6.49,
-                deal_photo_url: 'https://images-na.ssl-images-amazon.com/images/I/71TO4wnzOuL._AC_SL1500_.jpg',
-                deal_link: 'https://www.amazon.com/AUKEY-Car-Phone-Mount-Compatible/dp/B07W4Z4SMZ/ref=gbps_img_m-9_475e_f8be27c3?smid=A3FUL9VM6W25X6&pf_rd_p=5d86def2-ec10-4364-9008-8fbccf30475e&pf_rd_s=merchandised-search-9&pf_rd_t=101&pf_rd_i=15529609011&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=47F5SHB41J5ZQA0RHDHH&th=1'
+                product_description: 'Oral-B iO Gentle Care Cabezales de recambio, tamaño de buzón, Pack de 4',
+                expensive_cost: 37.95,
+                cheapest_cost: 29.99,
+                deal_photo_url: 'https://images-na.ssl-images-amazon.com/images/I/71UQlBvO4YL._AC_SL1500_.jpg',
+                deal_link: 'https://amzn.to/32VxJ5g'
             });
         }
     } catch (error) {
@@ -89,7 +96,7 @@ const FirstStepsForNewUser = async function (ctx) {
     }
 }
 
-telegramData.sendFirstMessage = FirstStepsForNewUser;
-telegramData.notifyDealsToAllUsers = SendBotDealNotification;
+telegramService.sendFirstMessage = FirstStepsForNewUser;
+telegramService.notifyDealsToAllUsers = SendBotDealNotification;
 
-module.exports = telegramData;
+module.exports = telegramService;

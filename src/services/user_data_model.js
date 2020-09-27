@@ -10,9 +10,12 @@ const SaveUserQuery = async function (newUserReceived) {
     });
 }
 
-userData.getAllUsers = dbConnection.query({
-    query: `select user_id from telegram_users;`
-});
+userData.getAllUsers = async function () {
+    const queryText = 'select user_id from telegram_users';
+    return await dbConnection.query({
+        query: queryText
+    });
+}
 
 userData.insertNewUser = SaveUserQuery;
 

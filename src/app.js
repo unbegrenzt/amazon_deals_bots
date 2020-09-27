@@ -1,17 +1,18 @@
-const Telegraf = require('telegraf');
-const telegramData = require('./services/telegram_users_service');
+const telegramService = require('./services/telegram_users_service');
+const telegramBot = require('./loaders/bot_deals_telegram_loader')
 const CronJob = require('cron');
+const userData = require('./services/user_data_model');
 
-const bot = new Telegraf("1388221629:AAHmf8-1qKtidH8M11o7SDIpc4Fhgaec6sw");
-
-bot.start((ctx) =>
-    telegramData.sendFirstMessage(ctx)
-);
+telegramBot.initializeTelegramBot();
 
 let job = new CronJob.CronJob(
-    '0/40 * * * * *',
+    '*/30 * * * * *',
     function () {
-        telegramData.notifyDealsToAllUsers(bot).then(() =>
+        console.log('disparado!');
+        userData.getAllUsers().then((result) => {
+            console.log("all users: " + result.result.rows.length)
+        })
+        telegramService.notifyDealsToAllUsers(telegramBot.getBot).then(() =>
             console.info(
                 'se terminó el proceso de notificación para el bot telegram'
             )
@@ -27,12 +28,3 @@ let job = new CronJob.CronJob(
     'Europe/Madrid'
 );
 job.start();
-
-bot.launch().then(() =>
-    console.info('bot de telegram lanzado!')
-).catch((error) => {
-    console.error(
-        'ocurrió un error al ejecutar el bot de telegram!\n' +
-        'mensaje de error: ' + error
-    )
-});

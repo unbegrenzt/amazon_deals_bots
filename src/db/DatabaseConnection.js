@@ -1,23 +1,21 @@
-const {Pool} = require('pg');
-
-const config = {
-    host: 'dumbo.db.elephantsql.com',
-    user: 'gihzvxow',
-    password: 'rswFyoFV_dBKw0pGB_vpUfjioZKm1o_D',
-    database: 'gihzvxow',
-    port: 5432
-};
-
-const pool = new Pool(config);
+const {Client} = require('pg');
 
 const queryStatementFunction = async function getPromiseUsers(
     {
         query,
         parameters = null
     } = {}) {
-    const client = await pool.connect();
+
+    const client = new Client({
+        user: 'gihzvxow',
+        host: 'dumbo.db.elephantsql.com',
+        database: 'gihzvxow',
+        password: 'rswFyoFV_dBKw0pGB_vpUfjioZKm1o_D',
+        port: 5432,
+    });
+    await client.connect();
     try {
-        const start = Date.now()
+        const start = Date.now();
         return await client.query(query, parameters).then((result) => {
             const duration = Date.now() - start;
             return {
@@ -25,13 +23,12 @@ const queryStatementFunction = async function getPromiseUsers(
                 parameters,
                 duration,
                 result
-            }
+            };
         });
     } catch (error) {
-        await client.query('ROLLBACK');
         throw error;
     } finally {
-        client.release();
+        client.end();
     }
 }
 
