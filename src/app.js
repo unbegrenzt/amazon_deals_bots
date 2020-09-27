@@ -10,7 +10,7 @@ telegramBot.initializeTelegramBot();
 let job = new CronJob.CronJob(
     '*/30 * * * * *',
     function () {
-        console.log('disparado!');
+        console.log('Proceso programado iniciado!');
         userData.getAllUsers().then((result) => {
             console.log("all users: " + result.result.rows.length)
         })
