@@ -23,6 +23,7 @@
       <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -184,7 +186,7 @@
       <workItem from="1600875606282" duration="13245000" />
       <workItem from="1600992076350" duration="2939000" />
       <workItem from="1601077503598" duration="592000" />
-      <workItem from="1601227949917" duration="5772000" />
+      <workItem from="1601227949917" duration="6074000" />
     </task>
     <task id="LOCAL-00001" summary="fisrt commit from web storm">
       <created>1600633295597</created>
@@ -248,22 +250,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="417" y="190" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1600631460110" />
-    <state width="1259" height="297" key="GridCell.Tab.0.bottom" timestamp="1601234806876">
+    <state width="1259" height="297" key="GridCell.Tab.0.bottom" timestamp="1601235305443">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1601234806876" />
-    <state width="1259" height="297" key="GridCell.Tab.0.center" timestamp="1601234806876">
+    <state width="1259" height="297" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1601235305443" />
+    <state width="1259" height="297" key="GridCell.Tab.0.center" timestamp="1601235305442">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1601234806876" />
-    <state width="1259" height="297" key="GridCell.Tab.0.left" timestamp="1601234806876">
+    <state width="1259" height="297" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1601235305442" />
+    <state width="1259" height="297" key="GridCell.Tab.0.left" timestamp="1601235305442">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1601234806876" />
-    <state width="1259" height="297" key="GridCell.Tab.0.right" timestamp="1601234806876">
+    <state width="1259" height="297" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1601235305442" />
+    <state width="1259" height="297" key="GridCell.Tab.0.right" timestamp="1601235305443">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1601234806876" />
+    <state width="1259" height="297" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1601235305443" />
     <state width="1259" height="325" key="GridCell.Tab.1.bottom" timestamp="1600907847010">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -320,10 +322,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="232" y="225" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1600633609764" />
-    <state x="296" y="226" key="run.anything.popup" timestamp="1600800619233">
+    <state x="296" y="226" key="run.anything.popup" timestamp="1601235267024">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="296" y="226" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1600800619233" />
+    <state x="296" y="226" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1601235267024" />
     <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1600808599193">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
