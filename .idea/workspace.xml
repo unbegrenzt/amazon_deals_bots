@@ -135,7 +135,7 @@
       <workItem from="1600875606282" duration="13245000" />
       <workItem from="1600992076350" duration="2939000" />
       <workItem from="1601077503598" duration="592000" />
-      <workItem from="1601227949917" duration="1571000" />
+      <workItem from="1601227949917" duration="1964000" />
     </task>
     <task id="LOCAL-00001" summary="fisrt commit from web storm">
       <created>1600633295597</created>
@@ -167,10 +167,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="fisrt commit from web storm" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="87" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600575063228">
+    <state x="109" y="98" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601229397098">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="87" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1600575063228" />
+    <state x="109" y="98" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1601229397098" />
     <state x="420" y="197" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600571503780">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -195,22 +195,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="417" y="190" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1600631460110" />
-    <state width="1259" height="297" key="GridCell.Tab.0.bottom" timestamp="1600999972789">
+    <state width="1259" height="297" key="GridCell.Tab.0.bottom" timestamp="1601229976850">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1600999972789" />
-    <state width="1259" height="297" key="GridCell.Tab.0.center" timestamp="1600999972789">
+    <state width="1259" height="297" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1601229976850" />
+    <state width="1259" height="297" key="GridCell.Tab.0.center" timestamp="1601229976850">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1600999972789" />
-    <state width="1259" height="297" key="GridCell.Tab.0.left" timestamp="1600999972789">
+    <state width="1259" height="297" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1601229976850" />
+    <state width="1259" height="297" key="GridCell.Tab.0.left" timestamp="1601229976850">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1600999972789" />
-    <state width="1259" height="297" key="GridCell.Tab.0.right" timestamp="1600999972789">
+    <state width="1259" height="297" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1601229976850" />
+    <state width="1259" height="297" key="GridCell.Tab.0.right" timestamp="1601229976850">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1600999972789" />
+    <state width="1259" height="297" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1601229976850" />
     <state width="1259" height="325" key="GridCell.Tab.1.bottom" timestamp="1600907847010">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
