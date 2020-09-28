@@ -1,14 +1,17 @@
 const telegramService = require('./services/telegram_users_service');
-const telegramBot = require('./loaders/bot_deals_telegram_loader')
+const telegramBot = require('./loaders/bot_deals_telegram_loader');
 const CronJob = require('cron');
 const userData = require('./services/user_data_model');
+const expressService = require('./services/express_service');
+require('dotenv').config();
 
-console.info('Entorno de desarrollo actual:' + process.env.NODE_ENV)
+console.log('Entorno actual: ' + process.env.NODE_ENV);
 
 telegramBot.initializeTelegramBot();
+expressService.loadExpressService();
 
 let job = new CronJob.CronJob(
-    '0 */90 9-17 * * *',
+    process.env.CRON_JOB_TIME,
     function () {
         console.log('Proceso programado iniciado!');
         userData.getAllUsers().then((result) => {
@@ -30,23 +33,3 @@ let job = new CronJob.CronJob(
     'Europe/Madrid'
 );
 job.start();
-
-const express = require('express')
-const app = express()
-
-app.set('port', (process.env.PORT || 5000))
-//app.use(express.static(__dirname + '/public'))
-app.use(express.static('public'))
-
-app.get('/', function(request, response) {
-    try {
-        response.sendFile('/index.html');
-    } catch (error) {
-        console.error(error);
-        response.send({ success: false, message: "Something went wrong" });
-    }
-})
-
-app.listen(app.get('port'), function() {
-    console.log("Node app is running at http://localhost:" + app.get('port'))
-})

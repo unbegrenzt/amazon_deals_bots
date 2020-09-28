@@ -8,5 +8,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="ink" level="application" />
+    <orderEntry type="library" name="ink-all" level="application" />
+    <orderEntry type="library" name="uikit-icons" level="application" />
+    <orderEntry type="library" name="uikit" level="application" />
   </component>
 </module>
