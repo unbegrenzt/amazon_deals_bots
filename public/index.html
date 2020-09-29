@@ -30,7 +30,6 @@
     <title>Deals Bot Admin</title>
 </head>
 <body>
-
 <div id="app">
     <div class="uk-position-relative">
         <div class="uk-position-top">
@@ -49,17 +48,27 @@
         </div>
     </div>
     {{ message }}
+    <div class="fb-login-button" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>
 </div>
 
 <!--suppress JSUnresolvedFunction -->
 <script type="application/javascript">
-    Vue.config.devtools = true
-    const app = new Vue({
-        el: '#app',
-        data: {
-            message: 'Hello Vue!'
-        }
-    })
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '355241495679275',
+            xfbml      : true,
+            version    : 'v8.0'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 </script>
 
 </body>
