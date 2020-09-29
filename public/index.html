@@ -1,10 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="es">
+<head profile="http://www.w3.org/2005/10/profile">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="description" content="Bot admin for text bot and social page">
+    <meta name="author" content="Jorge Luis Morales Centeno">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Bot, Admin, Social">
+    <link rel="icon"
+          type="image/x-icon"
+          href="./images/favicon.ico">
+
+    <!-- INNER CSS -->
+    <link rel="stylesheet" href="./styles/index.css"/>
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css"/>
+
+    <!-- UIkit JS -->
+    <script src="//cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"
+            type="text/javascript"></script>
+    <script src="//cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"
+            type="text/javascript"></script>
+
+    <!--  Vue JS  -->
+    <script src="//cdn.jsdelivr.net/npm/vue" type="text/javascript"></script>
+
+    <title>Deals Bot Admin</title>
 </head>
 <body>
-    <h1>static file in node.js</h1>
+<div id="app">
+    <div class="uk-position-relative">
+        <div class="uk-position-top">
+            <nav class="uk-navbar-container top-navbar" uk-navbar>
+                <div class="uk-navbar-center">
+                    <a class="uk-navbar-item uk-logo" href="#">
+                        <img
+                                data-src="./images/logo_alt.png"
+                                width="100px"
+                                height="100px"
+                                alt=""
+                                uk-img>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    {{ message }}
+    <div class="fb-login-button" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>
+</div>
+
+<!--suppress JSUnresolvedFunction -->
+<script type="application/javascript">
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '355241495679275',
+            xfbml      : true,
+            version    : 'v8.0'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
 </body>
 </html>

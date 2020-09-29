@@ -92,6 +92,13 @@
       <method v="2" />
     </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/app.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="NODE_ENV" value="develop" />
+        <env name="PGUSER" value="gihzvxow" />
+        <env name="PGHOST" value="dumbo.db.elephantsql.com" />
+        <env name="PGDATABASE" value="gihzvxow" />
+        <env name="PGPASSWORD" value="rswFyoFV_dBKw0pGB_vpUfjioZKm1o_D" />
+      </envs>
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.grunt">
@@ -150,6 +157,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="fisrt commit from web storm" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
+    <state x="138" y="112" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601239496034">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="138" y="112" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1601239496034" />
+=======
     <state x="109" y="98" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601235890710">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -158,6 +171,7 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="405" y="294" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1601234992973" />
+>>>>>>> prod
     <state x="420" y="197" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600571503780">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -166,10 +180,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="730" height="466" key="DebuggerActiveHint/0.0.1280.984@0.0.1280.984" timestamp="1600815664534" />
-    <state x="507" y="242" key="EnvironmentVariablesDialog" timestamp="1600575061353">
+    <state x="896" y="183" key="EnvironmentVariablesDialog" timestamp="1601239493375">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="507" y="242" key="EnvironmentVariablesDialog/0.0.1280.984@0.0.1280.984" timestamp="1600575061353" />
+    <state x="896" y="183" key="EnvironmentVariablesDialog/0.0.1280.984@0.0.1280.984" timestamp="1601239493375" />
     <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1600632035120">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -182,22 +196,21 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="417" y="190" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1600631460110" />
-    <state width="1259" height="297" key="GridCell.Tab.0.bottom" timestamp="1601236527110">
+    <state width="1259" height="297" key="GridCell.Tab.0.bottom" timestamp="1601239398165">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1601236527110" />
-    <state width="1259" height="297" key="GridCell.Tab.0.center" timestamp="1601236527110">
+    <state width="1259" height="297" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1601239398165" />
+    <state width="1259" height="297" key="GridCell.Tab.0.center" timestamp="1601239398165">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1601236527110" />
-    <state width="1259" height="297" key="GridCell.Tab.0.left" timestamp="1601236527110">
+    <state width="1259" height="297" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1601239398165" />
+    <state width="1259" height="297" key="GridCell.Tab.0.left" timestamp="1601239398165">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1601236527110" />
-    <state width="1259" height="297" key="GridCell.Tab.0.right" timestamp="1601236527110">
+    <state width="1259" height="297" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1601239398165" />
+    <state width="1259" height="297" key="GridCell.Tab.0.right" timestamp="1601239398165">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1601236527110" />
     <state width="1259" height="325" key="GridCell.Tab.1.bottom" timestamp="1600907847010">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
