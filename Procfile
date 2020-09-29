@@ -1,1 +1,2 @@
-web: node src/app.js
+web: node src/webApp.js
+worker: node src/workerApp.js
