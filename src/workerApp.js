@@ -6,4 +6,4 @@ console.info('Worker lanzado!')
 console.log('Entorno actual: ' + process.env.NODE_ENV);
 
 telegramBot.initializeTelegramBot();
-cronJobService.initializeCronJob();
+cronJobService.initializeCronJob(telegramBot.getBot);
