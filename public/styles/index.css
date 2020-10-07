@@ -10,3 +10,9 @@ body {
 .top-navbar{
     background-color: #174561 !important;
 }
+
+.center {
+    /* Center vertically */
+    position: absolute;
+    top: 50%;
+}

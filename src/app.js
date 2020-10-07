@@ -7,4 +7,4 @@ console.log('Entorno actual: ' + process.env.NODE_ENV);
 
 telegramBot.initializeTelegramBot();
 expressService.loadExpressService();
-cronJobService.initializeCronJob();
+cronJobService.initializeCronJob(telegramBot.getBot);

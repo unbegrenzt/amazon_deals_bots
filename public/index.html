@@ -48,28 +48,23 @@
         </div>
     </div>
     {{ message }}
-    <div class="fb-login-button" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>
 </div>
+<div class="uk-flex uk-flex-center">
+    <div class="uk-card uk-card-default uk-card-body">Item 1</div>
+    <div class="uk-card uk-card-default uk-card-body uk-margin-left">Item 2</div>
+    <div class="uk-card uk-card-default uk-card-body uk-margin-left">Item 3</div>
+</div>
+<div class="uk-flex uk-flex-middle uk-text-center">
+    <div class="uk-card uk-card-default uk-card-body">Item 1</div>
+    <div class="uk-card uk-card-default uk-card-body uk-margin-left">Item 2<br>...</div>
+    <div class="uk-card uk-card-default uk-card-body uk-margin-left">Item 3<br>...<br>...</div>
+</div>
+<!--<div class="center">-->
+<!--    <div class="fb-login-button" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>-->
+<!--</div>-->
+
 
 <!--suppress JSUnresolvedFunction -->
-<script type="application/javascript">
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId      : '355241495679275',
-            xfbml      : true,
-            version    : 'v8.0'
-        });
-        FB.AppEvents.logPageView();
-    };
-
-    (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-
+<script src="./scripts/index.js"></script>
 </body>
 </html>
