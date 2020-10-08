@@ -6,5 +6,5 @@ require('dotenv').config();
 console.log('Entorno actual: ' + process.env.NODE_ENV);
 
 telegramBot.initializeTelegramBot();
-expressService.loadExpressService();
+expressService.loadExpressService({botData: telegramBot.getBot});
 cronJobService.initializeCronJob(telegramBot.getBot);

@@ -15,7 +15,7 @@ const firesExtractorModel = async function () {
     const options = {
         method: 'GET',
         url: 'https://rapidapi.p.rapidapi.com/offers',
-        params: {min_number: '5', country: 'ES', max_number: '100'},
+        params: {min_number: '5', country: 'ES', type: 'ALL', max_number: '100'},
         headers: {
             'x-rapidapi-host': 'amazon-products1.p.rapidapi.com',
             'x-rapidapi-key': '2ec68e9e51msh47af030231c6569p171f3ejsnd61581aef8e9'
@@ -24,7 +24,7 @@ const firesExtractorModel = async function () {
 
     const response = await axios.request(options);
 
-    let fetchedData = JSON.parse(response.data);
+    let fetchedData = response.data;
 
     console.log('respuesta de la extracción' + response.data);
     console.info('ofertas extraidas: ' + fetchedData.offers.length);

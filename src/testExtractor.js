@@ -1,1 +1,0 @@
-//TODO: crear extractor diario via cron a las 7

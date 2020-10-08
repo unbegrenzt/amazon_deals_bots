@@ -1,4 +1,4 @@
-const userData = require('./user_data_model');
+const userData = require('../models/user_data_model');
 const dealsData = require('../models/deals_data_model');
 const Extra = require('telegraf/extra');
 const Markup = require('telegraf/markup');
