@@ -1,4 +1,5 @@
 const userData = require('./user_data_model');
+const dealsData = require('../models/deals_data_model');
 const Extra = require('telegraf/extra');
 const Markup = require('telegraf/markup');
 
@@ -16,8 +17,6 @@ const DealNotificationTemplate = async function (
         user_id,
         title = 'Oferta!',
         product_description,
-        expensive_cost,
-        cheapest_cost,
         deal_photo_url,
         deal_link
     } = {}) {
@@ -26,10 +25,7 @@ const DealNotificationTemplate = async function (
             user_id,
             '[​​​​​​​​​​​](' + deal_photo_url + ')' +
             title + '\n' +
-            product_description + '\n' +
-            'Antes: ' + expensive_cost + '€ 😕\n' +
-            'Ahora: ' + cheapest_cost + '€ 🤩\n' +
-            'Ahorras: 7,96 € (21%)',
+            product_description,
             Extra.markup(keyboard(deal_link))
                 .markdown(true)
         );
@@ -50,17 +46,33 @@ const SendBotDealNotification = async function (bot) {
     try {
         let usersList = await userData.getAllUsers();
 
+        let dealsList = await dealsData.getDealsForSend();
+        let currentDeal = dealsList.result.rows[0];
+
+        let productDescrip = '*' + currentDeal.title + '*\n\n' +
+            'Antes: ' + currentDeal.previous_price + '€ 😕\n' +
+            'Ahora: ' + currentDeal.current_price + '€ 🤩\n' +
+            'Ahorras: ' +
+            (parseFloat(currentDeal.previous_price) - parseFloat(currentDeal.current_price)).toFixed() +
+            ' € (' +
+            Math.trunc(
+                (1 - parseFloat(currentDeal.current_price) / parseFloat(currentDeal.previous_price)) *
+                100
+            ) + '%)';
+
         for (const userRow of usersList.result.rows) {
             await telegramService.sendDealNotificationToUser({
                 bot,
                 user_id: userRow.user_id,
-                product_description: 'Oral-B iO Gentle Care Cabezales de recambio, tamaño de buzón, Pack de 4',
-                expensive_cost: 37.95,
-                cheapest_cost: 29.99,
-                deal_photo_url: 'https://images-na.ssl-images-amazon.com/images/I/71UQlBvO4YL._AC_SL1500_.jpg',
-                deal_link: 'https://amzn.to/32VxJ5g'
+                product_description: productDescrip,
+                deal_photo_url: currentDeal.image,
+                deal_link: currentDeal.full_link + '?&tag=ofertasxhora8-21'
             });
         }
+
+        await dealsData.updateSended({
+            product_asin: currentDeal.asin
+        });
     } catch (error) {
         console.error(
             `Ocurrió un error al enviar notificaciones globales

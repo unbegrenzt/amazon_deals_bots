@@ -74,6 +74,19 @@ dealsData.removeNotSended = async function () {
     });
 }
 
+dealsData.updateSended = async function (
+    { product_asin } = {}) {
+    const queryText = 'UPDATE public.deals_of_the_day \n' +
+    'SET sended=true \n' +
+    'WHERE asin=$1';
+    await dbConnection.query({
+        query: queryText,
+        parameters: [
+            product_asin
+        ]
+    });
+}
+
 dealsData.insertNewUser = SaveDealQuery;
 
 module.exports = dealsData;
