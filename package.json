@@ -34,6 +34,6 @@
     "unirest": "^0.6.0"
   },
   "devDependencies": {
-    "moment-timezone": "^0.5.31"
+    "moment-timezone": "^0.5.35"
   }
 }
